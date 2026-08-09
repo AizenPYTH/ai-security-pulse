@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import ToolCard from "@/components/ToolCard";
+import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import {
   categoryMeta,
   getCategoryBySlug,
@@ -40,21 +41,25 @@ export default function CategoryPage({ params }: PageProps) {
         ]}
       />
 
-      <header className="mb-10">
-        <p className="text-2xl" aria-hidden="true">
+      <Reveal className="mb-14">
+        <p className="text-3xl" aria-hidden="true">
           {category.emoji}
         </p>
-        <h1 className="mt-3 text-h2 text-ink">{category.name}</h1>
-        <p className="mt-3 max-w-2xl text-body text-muted">
+        <h1 className="mt-5 text-h2 text-ink sm:text-[2.5rem]">
+          {category.name}
+        </h1>
+        <p className="mt-5 max-w-2xl text-lead text-muted">
           {category.description}
         </p>
-      </header>
+      </Reveal>
 
-      <div className="border-t border-line">
+      <Stagger className="border-t border-line">
         {tools.map((tool) => (
-          <ToolCard key={tool.id} tool={tool} />
+          <StaggerItem key={tool.id}>
+            <ToolCard tool={tool} />
+          </StaggerItem>
         ))}
-      </div>
+      </Stagger>
     </div>
   );
 }

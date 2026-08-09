@@ -1,0 +1,349 @@
+{
+  "checkedAt": "2026-08-09T11:34:52.266Z",
+  "total": 85,
+  "ok": 0,
+  "fail": 0,
+  "error": 85,
+  "failures": [
+    {
+      "url": "https://logo.clearbit.com/crowdstrike.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/paloaltonetworks.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/darktrace.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/microsoft.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/sentinelone.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/vmware.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/elastic.co?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/openai.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/anthropic.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/google.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/jasper.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/copy.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/writesonic.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/rytr.me?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/notion.so?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/perplexity.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/grammarly.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/midjourney.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/stability.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/adobe.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/lexica.art?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/runwayml.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/synthesia.io?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/picture.app?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/craiyon.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/getimg.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/tableau.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/qlik.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/sisense.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/metabase.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/alteryx.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/databox.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/domo.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/intercom.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/zendesk.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/freshworks.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/gorgias.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/drift.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/helpcrunch.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/botpress.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/rasa.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/landbot.io?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/manychat.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/zapier.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/make.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/n8n.io?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/ifttt.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/automationanywhere.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/uipath.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/blueprism.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/workato.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/tray.io?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/cursor.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/github.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/codeium.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/tabnine.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/replit.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/huggingface.co?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/jetbrains.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/phind.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/lever.co?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/greenhouse.io?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/workable.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/bamboohr.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/ashby.ai?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/manpowergroup.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/sap.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/talentwise.co?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/pymetrics.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/employbl.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/semrush.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/ahrefs.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/moz.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/hubspot.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/surfer.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/copysmith.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/outbrain.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/brandwatch.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/salesforce.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/pipedrive.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/zoho.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/copper.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/oracle.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/agilecrm.com?size=256",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://logo.clearbit.com/capsulecrm.com?size=256",
+      "error": "fetch failed"
+    }
+  ]
+}

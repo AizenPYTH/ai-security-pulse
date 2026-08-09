@@ -22,7 +22,7 @@ export default function ToolLogo({
 
   return (
     <div
-      className={`relative shrink-0 overflow-hidden border border-line bg-paper ${className}`}
+      className={`relative shrink-0 overflow-hidden rounded-xl border border-line bg-paper shadow-soft ${className}`}
       style={{ width: size, height: size }}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}

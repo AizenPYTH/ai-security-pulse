@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import SearchBar from "@/components/SearchBar";
 import ToolCard from "@/components/ToolCard";
+import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { searchTools } from "@/lib/tools";
 
 export const metadata: Metadata = {
@@ -27,13 +28,15 @@ export default function SearchPage({ searchParams }: PageProps) {
         ]}
       />
 
-      <h1 className="text-h2 text-ink">Recherche</h1>
-      <div className="mt-6">
-        <SearchBar initialQuery={query} autofocus />
-      </div>
+      <Reveal>
+        <h1 className="text-h2 text-ink sm:text-[2.5rem]">Recherche</h1>
+        <div className="mt-7">
+          <SearchBar initialQuery={query} autofocus />
+        </div>
+      </Reveal>
 
       {!query && (
-        <p className="mt-6 text-sm text-muted">
+        <p className="mt-7 text-sm text-muted">
           Essayez{" "}
           <Link href="/search?q=iasecure" className="text-accent hover:underline">
             iasecure
@@ -43,17 +46,19 @@ export default function SearchPage({ searchParams }: PageProps) {
       )}
 
       {query && (
-        <section className="mt-10">
-          <p className="mb-4 text-sm text-muted">
+        <section className="mt-12">
+          <p className="mb-5 text-sm text-muted">
             {results.length} résultat{results.length > 1 ? "s" : ""} pour «{" "}
             {query} »
           </p>
           {results.length > 0 ? (
-            <div className="border-t border-line">
+            <Stagger className="border-t border-line">
               {results.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} showCategory />
+                <StaggerItem key={tool.id}>
+                  <ToolCard tool={tool} showCategory />
+                </StaggerItem>
               ))}
-            </div>
+            </Stagger>
           ) : (
             <p className="text-muted">Aucun outil trouvé.</p>
           )}

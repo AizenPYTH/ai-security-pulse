@@ -1,3 +1,4 @@
+import { getAllPosts } from "@/lib/blog";
 import {
   categoryMeta,
   getToolsByCategory,
@@ -18,7 +19,7 @@ function escapeXml(value: string): string {
 }
 
 export async function GET() {
-  const items = categoryMeta
+  const categoryItems = categoryMeta
     .map((category) => {
       const top = getToolsByCategory(category.name)[0];
       const url = `${SITE_URL}/category/${category.slug}`;
@@ -37,13 +38,28 @@ export async function GET() {
     })
     .join("");
 
+  const postItems = getAllPosts()
+    .map((post) => {
+      const url = `${SITE_URL}/blog/${post.slug}`;
+      return `
+    <item>
+      <title>${escapeXml(post.title)}</title>
+      <link>${url}</link>
+      <guid>${url}</guid>
+      <pubDate>${new Date(post.date).toUTCString()}</pubDate>
+      <description>${escapeXml(post.excerpt)}</description>
+      <category>Blog</category>
+    </item>`;
+    })
+    .join("");
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>${escapeXml(SITE_NAME)}</title>
     <link>${SITE_URL}</link>
     <description>${escapeXml(SITE_DESCRIPTION)}</description>
-    <language>fr</language>${items}
+    <language>fr</language>${postItems}${categoryItems}
   </channel>
 </rss>`;
 

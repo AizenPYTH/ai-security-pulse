@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Automatisations PME">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="140" r="160" fill="#3B82F6" opacity="0.07"/>
+  <circle cx="1000" cy="500" r="200" fill="#3B82F6" opacity="0.08"/>
+  <rect x="180" y="180" width="200" height="120" rx="20" fill="#fff" stroke="#E5E7EB"/>
+  <rect x="500" y="180" width="200" height="120" rx="20" fill="#fff" stroke="#E5E7EB"/>
+  <rect x="820" y="180" width="200" height="120" rx="20" fill="#fff" stroke="#E5E7EB"/>
+  <rect x="340" y="360" width="200" height="120" rx="20" fill="#fff" stroke="#BFDBFE"/>
+  <rect x="660" y="360" width="200" height="120" rx="20" fill="#3B82F6"/>
+  <path d="M280 300v40M600 300v40M920 300v40M440 360v0M760 360v0" stroke="#93C5FD" stroke-width="3" fill="none"/>
+  <path d="M380 240h40M700 240h40" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  <circle cx="280" cy="240" r="8" fill="#3B82F6"/>
+  <circle cx="600" cy="240" r="8" fill="#3B82F6"/>
+  <circle cx="920" cy="240" r="8" fill="#3B82F6"/>
+  <text x="180" y="130" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#111">Automatisations PME</text>
+</svg>

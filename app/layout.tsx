@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/motion/PageTransition";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/tools";
 import "./globals.css";
 
@@ -40,13 +41,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" suppressHydrationWarning>
       <body className={`${spaceGrotesk.variable} bg-paper font-sans text-ink antialiased`}>
-        <Header />
-        <main className="mx-auto min-h-[70vh] max-w-5xl px-6 py-12 sm:px-8 lg:px-10 lg:py-16">
-          {children}
-        </main>
-        <Footer />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;if(t==='dark'||(!t&&d)){document.documentElement.classList.add('dark')}}catch(e){}})();`,
+          }}
+        />
+        <div className="pointer-events-none fixed inset-0 z-0 bg-accent-glow dark:bg-accent-glow-dark" />
+        <div className="relative z-10">
+          <Header />
+          <main className="mx-auto min-h-[70vh] max-w-5xl px-6 py-12 sm:px-8 lg:px-10 lg:py-16">
+            <PageTransition>{children}</PageTransition>
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
