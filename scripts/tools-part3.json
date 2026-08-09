@@ -1,0 +1,422 @@
+[
+  {
+    "id": "31",
+    "slug": "fortinet-fortigate",
+    "name": "Fortinet FortiGate",
+    "category": "Network Security",
+    "rank": 1,
+    "logo": "https://logo.clearbit.com/fortinet.com?size=256",
+    "description": "Pare-feu nouvelle génération avec détection de menaces IA",
+    "features": [
+      "Next-gen firewall",
+      "AI threat detection",
+      "VPN",
+      "Cloud integration",
+      "SSL inspection"
+    ],
+    "pricing": "$$",
+    "website": "https://www.fortinet.com",
+    "rating": 4.8,
+    "reviews": 920,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "32",
+    "slug": "palo-alto-ngfw",
+    "name": "Palo Alto Networks NGFW",
+    "category": "Network Security",
+    "rank": 2,
+    "logo": "https://logo.clearbit.com/paloaltonetworks.com?size=256",
+    "description": "Pare-feu entreprise avec machine learning",
+    "features": [
+      "Next-gen firewall",
+      "ML threat detection",
+      "Cloud security",
+      "API security",
+      "Advanced threat prevention"
+    ],
+    "pricing": "$$$",
+    "website": "https://www.paloaltonetworks.com",
+    "rating": 4.7,
+    "reviews": 850,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  },
+  {
+    "id": "33",
+    "slug": "cisco-asa",
+    "name": "Cisco ASA",
+    "category": "Network Security",
+    "rank": 3,
+    "logo": "https://logo.clearbit.com/cisco.com?size=256",
+    "description": "Appliance de sécurité adaptative avec IA",
+    "features": [
+      "Firewall",
+      "VPN",
+      "Threat protection",
+      "Intrusion prevention",
+      "Unified management"
+    ],
+    "pricing": "$$",
+    "website": "https://www.cisco.com/c/en/us/products/security/asa/index.html",
+    "rating": 4.6,
+    "reviews": 780,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": "34",
+    "slug": "zerotier",
+    "name": "ZeroTier",
+    "category": "Network Security",
+    "rank": 4,
+    "logo": "https://logo.clearbit.com/zerotier.com?size=256",
+    "description": "Réseau sécurisé avec détection des anomalies IA",
+    "features": [
+      "Zero-trust networking",
+      "VPN alternative",
+      "Secure mesh",
+      "Easy deployment",
+      "Cross-platform"
+    ],
+    "pricing": "$",
+    "website": "https://www.zerotier.com",
+    "rating": 4.5,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1620712014215-7b16992e4e41?w=800"
+  },
+  {
+    "id": "35",
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "category": "Network Security",
+    "rank": 5,
+    "logo": "https://logo.clearbit.com/cloudflare.com?size=256",
+    "description": "CDN + sécurité avec protection DDoS IA",
+    "features": [
+      "DDoS protection",
+      "WAF",
+      "CDN",
+      "AI threat detection",
+      "API security"
+    ],
+    "pricing": "$",
+    "website": "https://www.cloudflare.com",
+    "rating": 4.8,
+    "reviews": 1600,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "36",
+    "slug": "aws-waf",
+    "name": "AWS WAF",
+    "category": "Network Security",
+    "rank": 6,
+    "logo": "https://logo.clearbit.com/amazon.com?size=256",
+    "description": "Pare-feu d'application web avec machine learning",
+    "features": [
+      "Web firewall",
+      "ML detection",
+      "Cloud-native",
+      "Easy integration",
+      "AWS ecosystem"
+    ],
+    "pricing": "$",
+    "website": "https://aws.amazon.com/waf/",
+    "rating": 4.4,
+    "reviews": 590,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  },
+  {
+    "id": "37",
+    "slug": "openvswitch",
+    "name": "Open vSwitch",
+    "category": "Network Security",
+    "rank": 7,
+    "logo": "https://logo.clearbit.com/openvswitch.org?size=256",
+    "description": "Switch virtuel open-source",
+    "features": [
+      "Open-source",
+      "Virtual switching",
+      "Free",
+      "Multi-platform",
+      "Community support"
+    ],
+    "pricing": "Free",
+    "website": "https://www.openvswitch.org/",
+    "rating": 4.1,
+    "reviews": 280,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": "38",
+    "slug": "snort",
+    "name": "Snort",
+    "category": "Network Security",
+    "rank": 8,
+    "logo": "https://logo.clearbit.com/snort.org?size=256",
+    "description": "IDS/IPS open-source puissant",
+    "features": [
+      "IDS/IPS",
+      "Network detection",
+      "Open-source",
+      "Free",
+      "Active community"
+    ],
+    "pricing": "Free",
+    "website": "https://www.snort.org/",
+    "rating": 4.2,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1620712014215-7b16992e4e41?w=800"
+  },
+  {
+    "id": "39",
+    "slug": "keepalived",
+    "name": "Keepalived",
+    "category": "Network Security",
+    "rank": 9,
+    "logo": "https://logo.clearbit.com/keepalived.org?size=256",
+    "description": "Load balancer avec failover",
+    "features": [
+      "Load balancing",
+      "Failover",
+      "Open-source",
+      "Free",
+      "HA support"
+    ],
+    "pricing": "Free",
+    "website": "https://www.keepalived.org/",
+    "rating": 4,
+    "reviews": 190,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "40",
+    "slug": "vyos",
+    "name": "VyOS",
+    "category": "Network Security",
+    "rank": 10,
+    "logo": "https://logo.clearbit.com/vyos.io?size=256",
+    "description": "Routeur et pare-feu open-source",
+    "features": [
+      "Router",
+      "Firewall",
+      "Open-source",
+      "Free",
+      "Full control"
+    ],
+    "pricing": "Free",
+    "website": "https://vyos.io/",
+    "rating": 3.9,
+    "reviews": 150,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  },
+  {
+    "id": "41",
+    "slug": "okta",
+    "name": "Okta",
+    "category": "Access Control & IAM",
+    "rank": 1,
+    "logo": "https://logo.clearbit.com/okta.com?size=256",
+    "description": "Gestion d'identité et d'accès alimentée par l'IA",
+    "features": [
+      "IAM platform",
+      "MFA",
+      "SSO",
+      "AI security",
+      "Integration hub"
+    ],
+    "pricing": "$$",
+    "website": "https://www.okta.com",
+    "rating": 4.8,
+    "reviews": 1200,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "42",
+    "slug": "azure-ad",
+    "name": "Azure AD",
+    "category": "Access Control & IAM",
+    "rank": 2,
+    "logo": "https://logo.clearbit.com/microsoft.com?size=256",
+    "description": "IAM de Microsoft avec machine learning",
+    "features": [
+      "IAM",
+      "MFA",
+      "Risk detection",
+      "Cloud-native",
+      "Microsoft ecosystem"
+    ],
+    "pricing": "$",
+    "website": "https://learn.microsoft.com/en-us/azure/active-directory/",
+    "rating": 4.7,
+    "reviews": 950,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  },
+  {
+    "id": "43",
+    "slug": "ping-identity",
+    "name": "Ping Identity",
+    "category": "Access Control & IAM",
+    "rank": 3,
+    "logo": "https://logo.clearbit.com/pingidentity.com?size=256",
+    "description": "IAM entreprise avec IA",
+    "features": [
+      "Enterprise IAM",
+      "SSO",
+      "API security",
+      "Risk intelligence",
+      "Workforce & customer"
+    ],
+    "pricing": "$$",
+    "website": "https://www.pingidentity.com",
+    "rating": 4.6,
+    "reviews": 520,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": "44",
+    "slug": "auth0",
+    "name": "Auth0",
+    "category": "Access Control & IAM",
+    "rank": 4,
+    "logo": "https://logo.clearbit.com/auth0.com?size=256",
+    "description": "Plateforme d'authentification",
+    "features": [
+      "Authentication",
+      "MFA",
+      "Developer-friendly",
+      "Easy integration",
+      "Flexible"
+    ],
+    "pricing": "$",
+    "website": "https://auth0.com",
+    "rating": 4.7,
+    "reviews": 1100,
+    "image": "https://images.unsplash.com/photo-1620712014215-7b16992e4e41?w=800"
+  },
+  {
+    "id": "45",
+    "slug": "keycloak",
+    "name": "Keycloak",
+    "category": "Access Control & IAM",
+    "rank": 5,
+    "logo": "https://logo.clearbit.com/keycloak.org?size=256",
+    "description": "IAM open-source",
+    "features": [
+      "Open-source",
+      "IAM",
+      "Free",
+      "Self-hosted",
+      "Community support"
+    ],
+    "pricing": "Free",
+    "website": "https://www.keycloak.org/",
+    "rating": 4.3,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "46",
+    "slug": "vault",
+    "name": "HashiCorp Vault",
+    "category": "Access Control & IAM",
+    "rank": 6,
+    "logo": "https://logo.clearbit.com/hashicorp.com?size=256",
+    "description": "Gestion des secrets avec IA",
+    "features": [
+      "Secrets management",
+      "Authentication",
+      "Open-source option",
+      "Scalable",
+      "Multi-cloud"
+    ],
+    "pricing": "$",
+    "website": "https://www.vaultproject.io/",
+    "rating": 4.6,
+    "reviews": 380,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  },
+  {
+    "id": "47",
+    "slug": "active-directory",
+    "name": "Active Directory/LDAP",
+    "category": "Access Control & IAM",
+    "rank": 7,
+    "logo": "https://logo.clearbit.com/microsoft.com?size=256",
+    "description": "Services d'annuaire traditionnels",
+    "features": [
+      "Directory services",
+      "Authentication",
+      "Established",
+      "Enterprise",
+      "GPO support"
+    ],
+    "pricing": "$$",
+    "website": "https://microsoft.com",
+    "rating": 4.2,
+    "reviews": 890,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": "48",
+    "slug": "authelia",
+    "name": "Authelia",
+    "category": "Access Control & IAM",
+    "rank": 8,
+    "logo": "https://logo.clearbit.com/authelia.com?size=256",
+    "description": "SSO open-source",
+    "features": [
+      "Single sign-on",
+      "Open-source",
+      "Free",
+      "Self-hosted",
+      "MFA support"
+    ],
+    "pricing": "Free",
+    "website": "https://www.authelia.com/",
+    "rating": 4.1,
+    "reviews": 210,
+    "image": "https://images.unsplash.com/photo-1620712014215-7b16992e4e41?w=800"
+  },
+  {
+    "id": "49",
+    "slug": "gitea",
+    "name": "Gitea",
+    "category": "Access Control & IAM",
+    "rank": 9,
+    "logo": "https://logo.clearbit.com/gitea.io?size=256",
+    "description": "Plateforme Git avec contrôle d'accès",
+    "features": [
+      "Git platform",
+      "Access control",
+      "Open-source",
+      "Free",
+      "Self-hosted"
+    ],
+    "pricing": "Free",
+    "website": "https://gitea.io/",
+    "rating": 4,
+    "reviews": 150,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": "50",
+    "slug": "freeradius",
+    "name": "FreeRADIUS",
+    "category": "Access Control & IAM",
+    "rank": 10,
+    "logo": "https://logo.clearbit.com/freeradius.org?size=256",
+    "description": "Serveur d'authentification RADIUS",
+    "features": [
+      "RADIUS server",
+      "Open-source",
+      "Free",
+      "High performance",
+      "Extensive features"
+    ],
+    "pricing": "Free",
+    "website": "https://freeradius.org/",
+    "rating": 3.9,
+    "reviews": 120,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+  }
+]
